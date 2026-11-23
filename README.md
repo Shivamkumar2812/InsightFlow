@@ -4,7 +4,8 @@
 
 **InsightFlow** is an end-to-end, interactive data analytics and quality engineering web application built entirely in **Python** and **Streamlit**. It empowers analysts, students, and decision-makers to upload raw CSV datasets, automatically audit and clean data quality issues, detect version-over-version dataset changes, uncover statistical anomalies, generate rule-based business recommendations, and monitor stock market trends—all from a single unified dashboard.
 
-![InsightFlow Main Dashboard](assets/dashboard_overview.png)
+<img width="1900" height="906" alt="image" src="https://github.com/user-attachments/assets/2d61ba6c-f872-443f-b1e7-2639c66f510c" />
+
 
 *Figure 1: InsightFlow Executive Overview & Domain-Aware Interactive Dashboard*
 
@@ -33,7 +34,8 @@ In real-world analytics workflows, raw datasets frequently suffer from missing v
   - Data-type casting
 - Preserves the original raw dataset without overwriting it.
 
-![Upload and Cleaning Studio](assets/upload_cleaning_studio.png)
+<img width="1907" height="911" alt="image" src="https://github.com/user-attachments/assets/858008b4-62fd-4415-ba63-d2c3e8359770" />
+
 
 *Figure 2: Interactive Data Cleaning Pipeline with Before-and-After Metrics*
 
@@ -50,7 +52,8 @@ Evaluates data quality across four weighted dimensions:
 
 Displays an interactive **0–100 Health Gauge**, column-wise quality diagnostics, and actionable remediation tips.
 
-![Dataset Health Score](assets/data_quality_score.png)
+<img width="1893" height="900" alt="image" src="https://github.com/user-attachments/assets/180e1a40-6272-400d-85b8-8908fcb47421" />
+
 
 *Figure 3: Weighted Dataset Health Gauge & Column-Level Diagnostics*
 
@@ -63,7 +66,8 @@ Displays an interactive **0–100 Health Gauge**, column-wise quality diagnostic
 - Supports **Aggregate Statistical Comparison** when no unique key is present.
 - Highlights structural row/column differences, missing-value improvements, and percentage shifts in numerical means.
 
-![Dataset Change Detective](assets/change_detective.png)
+<img width="1901" height="897" alt="image" src="https://github.com/user-attachments/assets/8ac1c548-6c1f-4b40-b50f-2c269c8a1765" />
+
 
 *Figure 4: Side-by-Side Version Comparison & Added/Removed Record Detection*
 
@@ -100,7 +104,8 @@ Identifies potential outliers using multiple statistical and machine learning ap
 
 Helps identify unusual data patterns without automatically treating every extreme value as an error.
 
-![Anomaly Detection](assets/anomaly_detection.png)
+<img width="1902" height="902" alt="image" src="https://github.com/user-attachments/assets/f4c3ab82-5b42-4570-a1cb-06de0d39b7e4" />
+
 
 *Figure 5: Outlier Inspection & Severity Classification*
 
@@ -128,7 +133,8 @@ Export saved dataset snapshots into multiple formats:
 
 Provides version history and downloadable reports for easier data management and documentation.
 
-![History and Export Reports](assets/history_reports.png)
+<img width="1906" height="911" alt="image" src="https://github.com/user-attachments/assets/c69278ee-f4ba-4a3f-aeff-0dea9e1ecc78" />
+
 
 *Figure 6: Version Snapshot Manager & One-Click PDF/Excel/CSV Export*
 
@@ -153,7 +159,8 @@ Features include:
 - Period highs and lows.
 - Configurable percentage-move alerts.
 
-![Stock Market Monitor](assets/stock_monitor.png)
+<img width="1883" height="895" alt="image" src="https://github.com/user-attachments/assets/c1e4102f-8078-46dd-96cb-30c7a605f5e8" />
+
 
 *Figure 7: Interactive Stock Trend Chart & Threshold Alert System*
 
@@ -286,3 +293,4 @@ If you find this project interesting, consider giving the repository a ⭐ on Gi
 
 **GitHub Repository:**  
 https://github.com/goudaishwar046-oss/InsightFlow
+Live Demo Link:-https://insightflowea.streamlit.app/anomaly_detection
